@@ -117,7 +117,3 @@ _Full code lives in_ `/BulkImageProcessing/Program.cs` – includes retries, met
 - **Bounded queues** → memory bounded, instant back‑pressure.
 - **Retries with back‑off** → transient errors smoothed out.
 - **Thread/Task IDs in logs** → easy to trace weird interleaves.
-
----
-
-That’s the whole picture, jargon‑free. Ready to tweak the worker counts or hook real image libraries? Open `Program.cs` and hack away! 🚀
